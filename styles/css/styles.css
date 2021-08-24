@@ -100,7 +100,7 @@ h1 {
 
 .visitanos {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(img/clothes-1839935_1920.jpg) no-repeat;
+    url(../../img/Banners/clothes-1839935_1920.jpg) no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
   width: 100%;
@@ -203,7 +203,7 @@ h1 {
 
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(img/Remeras/hangers-1850082_1920.jpg);
+    url(../../img/Remeras/hangers-1850082_1920.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
