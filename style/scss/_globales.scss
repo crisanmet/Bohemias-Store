@@ -1,3 +1,4 @@
+@import "variables";
 * {
 	padding: 0;
 	margin: 0;
@@ -56,23 +57,9 @@ h1 {
 	font-size: 2rem;
 	color: white;
 }
-.visitanos {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/Banners/clothes-1839935_1920.jpg) no-repeat;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	width: 100%;
-	height: 55vh;
-	h1 {
-		font-size: 60px;
-		font-weight: 700;
-	}
-	p {
-		font-size: 22px;
-		color: black;
-	}
-}
-.btn1 {
-	height: 40px;
+
+.btn1{
+	height: 30px;
 	width: 110px;
 	background: transparent;
 	border: 2px solid white;
