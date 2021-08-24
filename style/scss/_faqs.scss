@@ -1,0 +1,35 @@
+/*FAQS*/
+.nosotros {
+	margin-bottom: 60px;
+	.titulo {
+		width: 70%;
+		font-size: 44px;
+		text-decoration: uppercase;
+		display: inline-block;
+		margin-bottom: 50px;
+	}
+}
+.subtitulo {
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	z-index: 2;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	span {
+		background-color: rgb(238, 238, 238);
+		padding: 0 15px;
+		z-index: 3;
+		position: relative;
+	}
+	&::after {
+		content: "";
+		display: inline-block;
+		height: 2px;
+		width: 100%;
+		background: $background-negro;
+		position: relative;
+		top: -29px;
+		z-index: 1;
+	}
+}

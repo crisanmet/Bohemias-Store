@@ -1,0 +1,87 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+.navbar-brand {
+	color: black;
+	font-family: "Lobster", cursive;
+	a {
+		font-size: 2rem;
+		font-family: "Montserrat", sans-serif;
+	}
+	&:hover {
+		color: red;
+	}
+}
+li {
+	.nav-link {
+		margin-right: 10px;
+		margin-left: 10px;
+		color: black;
+		font-family: "Montserrat", sans-serif;
+		font-size: 1.2rem;
+		&:hover {
+			color: red;
+		}
+	}
+}
+h1 {
+	font-weight: 700;
+}
+
+
+.footer__boostrap {
+	background-color: $background-negro;
+	color: white;
+	ul {
+		li {
+			a {
+				text-decoration: none;
+				color: white;
+			}
+		}
+	}
+}
+.quick__links {
+	li {
+		list-style: none;
+	}
+}
+.fab {
+	font-size: 2rem;
+	color: white;
+}
+.visitanos {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/Banners/clothes-1839935_1920.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 55vh;
+	h1 {
+		font-size: 60px;
+		font-weight: 700;
+	}
+	p {
+		font-size: 22px;
+		color: black;
+	}
+}
+.btn1 {
+	height: 40px;
+	width: 110px;
+	background: transparent;
+	border: 2px solid white;
+	color: white;
+	outline: none;
+	border-radius: 4px;
+	&:hover {
+		color: black;
+		background-color: white;
+		transition: 1s;
+	}
+}
