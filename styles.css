@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand {
+  color: black;
+  font-family: "Lobster", cursive;
+}
+.navbar-brand a {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand:hover {
+  color: red;
+}
+
+li .nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+li .nav-link:hover {
+  color: red;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.carousel-item {
+  height: 80vh;
+}
+
+.sale span {
+  color: red;
+  font-size: 20px;
+  font-weight: 800;
+  padding-left: 5px;
+}
+.card {
+  border: none;
+}
+.sale input {
+  position: absolute;
+  height: 45px;
+  width: 110px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: center;
+  top: 40%;
+  left: 30%;
+  opacity: 0;
+}
+
+.sale .card:hover input {
+  opacity: 1;
+  transition: 1s;
+}
+
+.sale input:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+.card:hover {
+  box-shadow: -1px -1px 13px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -1px 13px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 13px 2px rgba(0, 0, 0, 0.75);
+  transition: 1s;
+}
+
+.footer__boostrap {
+  background-color: black;
+  color: white;
+}
+
+.footer__boostrap ul li a {
+  text-decoration: none;
+  color: white;
+}
+.quick__links li {
+  list-style: none;
+}
+
+.fab {
+  font-size: 2rem;
+  color: white;
+}
+
+.visitanos {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/clothes-1839935_1920.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 55vh;
+}
+
+.visitanos h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.visitanos p {
+  font-size: 22px;
+  color: black;
+}
+.btn1 {
+  height: 40px;
+  width: 110px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+}
+.btn1:hover {
+  color: black;
+  background-color: white;
+  transition: 1s;
+}
+
+/*PRODUCTOS HTML*/
+
+.productos select {
+  display: block;
+  padding: 5px 10px;
+}
+
+.productos input {
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.btn2 {
+  background-color: red;
+  color: white;
+  height: 40px;
+  width: 85px;
+  border: none;
+  outline: none;
+}
+
+.btn2:hover {
+  background-color: black;
+  transition: 1s;
+}
+
+/*FAQS*/
+.nosotros {
+  margin-bottom: 60px;
+}
+
+.subtitulo {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  z-index: 2;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo span {
+  background-color: rgb(238, 238, 238);
+  padding: 0 15px;
+  z-index: 3;
+  position: relative;
+}
+
+.subtitulo::after {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 100%;
+  background: black;
+  position: relative;
+  top: -29px;
+  z-index: 1;
+}
+
+.nosotros .titulo {
+  width: 70%;
+  font-size: 44px;
+  text-decoration: uppercase;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+/*REMERAS*/
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/Remeras/hangers-1850082_1920.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.hero .container {
+  height: 80vh;
+}
+.remeras h2 {
+  position: relative;
+}
+.remeras h2::after {
+  content: "";
+  background: rgb(213, 121, 121);
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  margin: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.remeras fa {
+  color: red;
+}
+.remeras__card {
+  transition: transform 0.5s;
+}
+.remeras__card:hover {
+  transform: translateY(-7px);
+}
+
+.remeras button {
+  height: 45px;
+  width: 60px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.remeras button:hover {
+  background-color: black;
+  transition: 1s;
+}
