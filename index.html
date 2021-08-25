@@ -29,8 +29,9 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
         <a class="navbar-brand fs-1" href="index.html">Bohemias</a>
         <button
           class="navbar-toggler"
@@ -40,68 +41,70 @@
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        >
+          >
           <span class="navbar-toggler-icon"
-            ><i class="fas fa-hamburger"></i
-          ></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">INICIO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="remeras.html">REMERAS</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="abrigos.html">ABRIGOS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="jeans.html">JEANS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CALZADOS</a>
-            </li>
-          </ul>
+          ><i class="fas fa-hamburger"></i
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="remeras.html">REMERAS</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="abrigos.html">ABRIGOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="jeans.html">JEANS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="zapatos.html">CALZADOS</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <hr />
-    <!--Carrousel-->
-    <div
+      </nav>
+    </header>
+      
+  <main>
+      <!--Carrousel-->
+      <div
       id="carouselExampleDark"
       class="carousel carousel-dark slide"
       data-bs-ride="carousel"
-    >
+      >
       <div class="carousel-indicators">
         <button
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
         ></button>
         <button
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
         ></button>
         <button
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
         ></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="2000">
           <img
-            src="img/Banners/woman-2564660_1920.jpg"
-            class="d-block w-100"
-            alt="..."
+          src="img/Banners/woman-2564660_1920.jpg"
+          class="d-block w-100"
+          alt="img de una mujer"
           />
           <div class="carousel-caption d-none d-md-block">
             <h5 class="fs-1">Abrigos</h5>
@@ -109,138 +112,138 @@
         </div>
         <div class="carousel-item" data-bs-interval="2000">
           <img
-            src="img/Banners/Zapatilla.png"
-            class="d-block w-100"
-            alt="..."
+          src="img/Banners/Zapatilla.png"
+          class="d-block w-100"
+          alt="img de zapatilla"
           />
           <div class="carousel-caption d-none d-md-block">
             <h5 class="fs-1 text-light">Zapas</h5>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="img/Remeras/foto6.jpg" class="d-block w-100" alt="..." />
+          <img src="img/Remeras/foto6.jpg" class="d-block w-100" alt="img de remeras" />
           <div class="carousel-caption d-none d-md-block">
             <h5 class="fs-1 text-light">Remeras</h5>
           </div>
         </div>
       </div>
       <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide="prev"
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleDark"
+      data-bs-slide="prev"
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!--Fin carrousel-->
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleDark"
+    data-bs-slide="next"
+    >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--Fin carrousel-->
 
-    <section class="sale">
-      <div class="container py-5">
-        <h1 class="text-center">On Sale</h1>
-        <div class="row py-5">
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="img/Remeras/foto1.jpg" class="img-fluid mb-3" alt="" />
-              <input
-                class="sale__btn"
-                type="button"
-                value="Ver"
-                onclick="location.href='productos.html'"
-              />
-              <h5>Remera</h5>
-              <p>
-                <small
-                  ><del>$1.999</del
-                  ><span class="sale__precio">$1.499</span></small
-                >
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="img/Remeras/foto3.jpg" class="img-fluid mb-3" alt="" />
-              <input
-                class="sale__btn"
-                type="button"
-                value="Ver"
-                onclick="location.href='productos.html'"
-              />
-              <h5>Remera</h5>
-              <p>
-                <small
-                  ><del>$1.999</del
-                  ><span class="sale__precio">$1.499</span></small
-                >
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="img/Remeras/foto4.jpg" class="img-fluid mb-3" alt="" />
-              <input
-                class="sale__btn"
-                type="button"
-                value="Ver"
-                onclick="location.href='productos.html'"
-              />
-              <h5>Remera</h5>
-              <p>
-                <small
-                  ><del>$1.999</del
-                  ><span class="sale__precio">$1.499</span></small
-                >
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="img/Remeras/foto7.jpg" class="img-fluid mb-3" alt="" />
-              <input
-                class="sale__btn"
-                type="button"
-                value="Ver"
-                onclick="location.href='productos.html'"
-              />
-              <h5>Remera</h5>
-              <p>
-                <small
-                  ><del>$1.999</del
-                  ><span class="sale__precio">$1.499</span></small
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="visitanos">
-      <div class="container py-5 text-white text-center">
-        <div class="row p-y3">
-          <div class="col-lg-9 mx-auto">
-            <h1 class="visitanos__titulo">Visitanos</h1>
-            <p class="visitanos__subtitulo py-3">
-              Vení a visitarnos a nuestro Showroom
+<section class="sale">
+  <div class="container py-5">
+    <h1 class="text-center">On Sale</h1>
+    <div class="row py-5">
+      <div class="col-lg-3">
+        <div class="card">
+          <img src="img/Remeras/foto1.jpg" class="img-fluid mb-3" alt="img de remera" />
+          <input
+          class="sale__btn"
+          type="button"
+          value="Ver"
+          onclick="location.href='productos.html'"
+          />
+          <h5>Remera</h5>
+          <p>
+            <small
+            ><del>$1.999</del
+              ><span class="sale__precio">$1.499</span></small
+              >
             </p>
-            <button class="visitanos__btn btn1 mr-1">Conocer</button>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="contacto py-5">
-      <div class="container py-5">
+        <div class="col-lg-3">
+          <div class="card">
+            <img src="img/Remeras/foto3.jpg" class="img-fluid mb-3" alt="img de remera" />
+            <input
+            class="sale__btn"
+            type="button"
+            value="Ver"
+            onclick="location.href='productos.html'"
+            />
+            <h5>Remera</h5>
+            <p>
+              <small
+              ><del>$1.999</del
+                ><span class="sale__precio">$1.499</span></small
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="img/Remeras/foto4.jpg" class="img-fluid mb-3" alt="img de remera" />
+              <input
+              class="sale__btn"
+              type="button"
+              value="Ver"
+              onclick="location.href='productos.html'"
+              />
+              <h5>Remera</h5>
+              <p>
+                <small
+                ><del>$1.999</del
+                  ><span class="sale__precio">$1.499</span></small
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card">
+                <img src="img/Remeras/foto7.jpg" class="img-fluid mb-3" alt="img de remera" />
+                <input
+                class="sale__btn"
+                type="button"
+                value="Ver"
+                onclick="location.href='productos.html'"
+                />
+                <h5>Remera</h5>
+                <p>
+                  <small
+                  ><del>$1.999</del
+                    ><span class="sale__precio">$1.499</span></small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="visitanos">
+          <div class="container py-5 text-white text-center">
+            <div class="row p-y3">
+              <div class="col-lg-9 mx-auto">
+                <h1 class="visitanos__titulo">Visitanos</h1>
+                <p class="visitanos__subtitulo py-3">
+                  Vení a visitarnos a nuestro Showroom
+                </p>
+                <button class="visitanos__btn btn1 mr-1">Conocer</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="contacto py-5">
+          <div class="container py-5">
         <div class="row">
           <div class="col-lg-5 m-auto text-center">
             <h1 class="contacto__titulo">Contactanos</h1>
@@ -251,7 +254,7 @@
                 <div class="col-lg-4">
                   <h6 class="contacto__subtitulo">¿Donde estamos?</h6>
                   <p class="contacto__parrafo">Juan B. Justo XXX</p>
-
+                  
                   <h6 class="contacto__subtitulo">Email</h6>
                   <p class="contacto__parrafo">bohemias@gmail.com</p>
                 </div>
@@ -260,32 +263,32 @@
                   <div class="row">
                     <div class="col-lg-6">
                       <input
-                        type="text"
-                        class="form-control bg-light"
-                        placeholder="Ingrese su nombre"
-                        name="nombre"
-                        id="nombre"
+                      type="text"
+                      class="form-control bg-light"
+                      placeholder="Ingrese su nombre"
+                      name="nombre"
+                      id="nombre"
                       />
                     </div>
                     <div class="col-lg-6">
                       <input
-                        type="text"
-                        class="form-control bg-light"
-                        placeholder="Ingrese su apellido"
+                      type="text"
+                      class="form-control bg-light"
+                      placeholder="Ingrese su apellido"
                         name="apellido"
                         id="apellido"
-                      />
+                        />
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-lg-12 py-3">
                       <textarea
-                        name="mensaje"
-                        class="form-control bg-light"
-                        id="mensaje"
-                        cols="30"
-                        rows="5"
-                        placeholder="Ingrese su mensaje"
+                      name="mensaje"
+                      class="form-control bg-light"
+                      id="mensaje"
+                      cols="30"
+                      rows="5"
+                      placeholder="Ingrese su mensaje"
                       ></textarea>
                     </div>
                   </div>
@@ -299,7 +302,8 @@
         </div>
       </div>
     </section>
-
+  </main>
+    
     <!--Footer-->
     <footer class="footer">
       <div class="container py-5">
@@ -307,10 +311,10 @@
           <div class="col-lg-9 m-auto text-center">
             <h1>Recibí nuestras promociones</h1>
             <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Ingresá tu email"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Ingresá tu email"
             />
             <button class="btn1">Suscribir!</button>
           </div>
