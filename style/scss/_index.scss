@@ -1,7 +1,5 @@
 .carousel-item {
-  @media only screen and (max-width: $breakpoint-desktop) {
-    height: 80vh;
-  }
+  height: 80vh;
   @media only screen and(max-width: $breakpoint-tablet) {
     height: 40vh;
   }
