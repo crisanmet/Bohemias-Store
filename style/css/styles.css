@@ -232,6 +232,30 @@ li .nav-link:hover {
   z-index: 1;
 }
 
+.hero__jeans {
+  background: url(../../img/Jeans/clothing-2886783_1920.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
+}
+
+.hero__jeans__titulo {
+  position: absolute;
+  left: 35%;
+  font-size: 4rem;
+  font-weight: 700;
+  color: black;
+}
+
+.hero__jeans__subtitulo {
+  position: absolute;
+  left: 30%;
+  font-size: 4rem;
+  font-weight: 700;
+  color: seagreen;
+}
+
 .productos select {
   display: block;
   padding: 5px 10px;

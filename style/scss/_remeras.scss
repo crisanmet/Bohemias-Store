@@ -1,48 +1,49 @@
 .hero {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/Remeras/hangers-1850082_1920.jpg);
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
-	.container {
-		height: 80vh;
-	}
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../img/Remeras/hangers-1850082_1920.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  .container {
+    height: 80vh;
+  }
 }
 .remeras {
-	h2 {
-		position: relative;
-		&::after {
-			content: "";
-			background: rgb(213, 121, 121);
-			width: 80px;
-			height: 5px;
-			border-radius: 5px;
-			position: absolute;
-			bottom: 0;
-			margin: -20px;
-			left: 50%;
-			transform: translateX(-50%);
-		}
-	}
-	fa {
-		color: red;
-	}
-	button {
-		height: 45px;
-		width: 60px;
-		background-color: red;
-		color: white;
-		border-radius: 5px;
-		outline: none;
-		border: none;
-		&:hover {
-			background-color: $background-negro;
-			transition: 1s;
-		}
-	}
+  h2 {
+    position: relative;
+    &::after {
+      content: "";
+      background: rgb(213, 121, 121);
+      width: 80px;
+      height: 5px;
+      border-radius: 5px;
+      position: absolute;
+      bottom: 0;
+      margin: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  fa {
+    color: red;
+  }
+  button {
+    height: 45px;
+    width: 60px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    &:hover {
+      background-color: $background-negro;
+      transition: 1s;
+    }
+  }
 }
 .remeras__card {
-	transition: transform 0.5s;
-	&:hover {
-		transform: translateY(-7px);
-	}
+  transition: transform 0.5s;
+  &:hover {
+    transform: translateY(-7px);
+  }
 }
