@@ -39,21 +39,21 @@ h1 {
   font-weight: 700;
 }
 
-.footer__boostrap {
+.footer {
   background-color: black;
   color: white;
 }
 
-.footer__boostrap ul li a {
+.footer__quickLinks {
+  list-style: none;
+}
+
+.footer__quickLinks__a {
   text-decoration: none;
   color: white;
 }
 
-.quick__links li {
-  list-style: none;
-}
-
-.fab {
+.footer__quickLinks__redes {
   font-size: 2rem;
   color: white;
 }
@@ -79,14 +79,14 @@ h1 {
   height: 80vh;
 }
 
-.sale span {
+.sale__precio {
   color: red;
   font-size: 20px;
   font-weight: 800;
   padding-left: 5px;
 }
 
-.sale input {
+.sale__btn {
   position: absolute;
   height: 45px;
   width: 110px;
@@ -101,7 +101,7 @@ h1 {
   opacity: 0;
 }
 
-.sale input:hover {
+.sale__btn:hover {
   background-color: black;
   -webkit-transition: 0.5s;
   transition: 0.5s;

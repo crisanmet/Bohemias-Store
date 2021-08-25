@@ -1,74 +1,67 @@
 @import "variables";
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .navbar-brand {
-	color: black;
-	font-family: "Lobster", cursive;
-	a {
-		font-size: 2rem;
-		font-family: "Montserrat", sans-serif;
-	}
-	&:hover {
-		color: red;
-	}
+  color: black;
+  font-family: "Lobster", cursive;
+  a {
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  &:hover {
+    color: red;
+  }
 }
 li {
-	.nav-link {
-		margin-right: 10px;
-		margin-left: 10px;
-		color: black;
-		font-family: "Montserrat", sans-serif;
-		font-size: 1.2rem;
-		&:hover {
-			color: red;
-		}
-	}
+  .nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    &:hover {
+      color: red;
+    }
+  }
 }
 h1 {
-	font-weight: 700;
+  font-weight: 700;
 }
 
-
-.footer__boostrap {
-	background-color: $background-negro;
-	color: white;
-	ul {
-		li {
-			a {
-				text-decoration: none;
-				color: white;
-			}
-		}
-	}
-}
-.quick__links {
-	li {
-		list-style: none;
-	}
-}
-.fab {
-	font-size: 2rem;
-	color: white;
+.footer {
+  background-color: $background-negro;
+  color: white;
+  &__quickLinks {
+    list-style: none;
+    &__a {
+      text-decoration: none;
+      color: white;
+    }
+    &__redes {
+      font-size: 2rem;
+      color: white;
+    }
+  }
 }
 
-.btn1{
-	height: 30px;
-	width: 110px;
-	background: transparent;
-	border: 2px solid white;
-	color: white;
-	outline: none;
-	border-radius: 4px;
-	&:hover {
-		color: black;
-		background-color: white;
-		transition: 1s;
-	}
+.btn1 {
+  height: 30px;
+  width: 110px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  &:hover {
+    color: black;
+    background-color: white;
+    transition: 1s;
+  }
 }

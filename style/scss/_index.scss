@@ -1,96 +1,97 @@
 .carousel-item {
-	height: 80vh;
+  height: 80vh;
 }
 .sale {
-	span {
-		color: red;
-		font-size: 20px;
-		font-weight: 800;
-		padding-left: 5px;
-	}
-	input {
-		position: absolute;
-		height: 45px;
-		width: 110px;
-		background-color: red;
-		color: white;
-		border-radius: 5px;
-		outline: none;
-		border: none;
-		text-align: center;
-		top: 40%;
-		left: 30%;
-		opacity: 0;
-		&:hover {
-			background-color: $background-negro;
-			transition: 0.5s;
-		}
-	}
-	.card {
-		&:hover {
-			input {
-				opacity: 1;
-				transition: 1s;
-			}
-		}
-	}
+  &__precio {
+    color: red;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 5px;
+  }
+  &__btn {
+    position: absolute;
+    height: 45px;
+    width: 110px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    top: 40%;
+    left: 30%;
+    opacity: 0;
+    &:hover {
+      background-color: $background-negro;
+      transition: 0.5s;
+    }
+  }
+  .card {
+    &:hover {
+      input {
+        opacity: 1;
+        transition: 1s;
+      }
+    }
+  }
 }
 .card {
-	border: none;
-	&:hover {
-		box-shadow: -1px -1px 13px 2px rgba(0, 0, 0, 0.75);
-		-webkit-box-shadow: -1px -1px 13px 2px rgba(0, 0, 0, 0.75);
-		-moz-box-shadow: -1px -1px 13px 2px rgba(0, 0, 0, 0.75);
-		transition: 1s;
-	}
+  border: none;
+  &:hover {
+    box-shadow: -1px -1px 13px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px -1px 13px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -1px 13px 2px rgba(0, 0, 0, 0.75);
+    transition: 1s;
+  }
 }
 
 .visitanos {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/Banners/clothes-1839935_1920.jpg) no-repeat;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	width: 100%;
-	height: 55vh;
-	&__titulo {
-		font-size: 60px;
-		font-weight: 700;
-	}
-	&__subtitulo {
-		font-size: 22px;
-		color: black;
-	}
-  &__btn{
-	height: 40px;
-	width: 110px;
-	background: transparent;
-	border: 2px solid white;
-	color: white;
-	outline: none;
-	border-radius: 4px;
-	&:hover {
-		color: black;
-		background-color: white;
-		transition: 1s;
-	}
-}
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../img/Banners/clothes-1839935_1920.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 55vh;
+  &__titulo {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  &__subtitulo {
+    font-size: 22px;
+    color: black;
+  }
+  &__btn {
+    height: 40px;
+    width: 110px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    &:hover {
+      color: black;
+      background-color: white;
+      transition: 1s;
+    }
+  }
 }
 
-.contacto{
-	&__subtitulo{
-		font-weight: 900;
-	}
-	&__btn{
-		height: 45px;
-		width: 110px;
-		background-color: red;
-		color: white;
-		border-radius: 5px;
-		outline: none;
-		border: none;
-		text-align: center;
-		&:hover {
-			background-color: $background-negro;
-			transition: 0.5s;
-		}
-	}
+.contacto {
+  &__subtitulo {
+    font-weight: 900;
+  }
+  &__btn {
+    height: 45px;
+    width: 110px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    &:hover {
+      background-color: $background-negro;
+      transition: 0.5s;
+    }
+  }
 }
