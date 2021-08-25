@@ -1,4 +1,6 @@
 @import "variables";
+@import "operaciones";
+
 * {
   padding: 0;
   margin: 0;
@@ -31,9 +33,6 @@ li {
     }
   }
 }
-h1 {
-  font-weight: 700;
-}
 
 .footer {
   background-color: $background-negro;
@@ -52,13 +51,7 @@ h1 {
 }
 
 .btn1 {
-  height: 30px;
-  width: 110px;
-  background: transparent;
-  border: 2px solid white;
-  color: white;
-  outline: none;
-  border-radius: 4px;
+  @include boton-estilo-footer;
   &:hover {
     color: black;
     background-color: white;

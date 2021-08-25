@@ -35,10 +35,6 @@ li .nav-link:hover {
   color: red;
 }
 
-h1 {
-  font-weight: 700;
-}
-
 .footer {
   background-color: black;
   color: white;
@@ -79,6 +75,18 @@ h1 {
   height: 80vh;
 }
 
+@media (min-width: 768px) {
+  .carousel-item {
+    height: 40vh;
+  }
+}
+
+@media (min-width: 375px) {
+  .carousel-item {
+    height: 30vh;
+  }
+}
+
 .sale__precio {
   color: red;
   font-size: 20px;
@@ -87,7 +95,6 @@ h1 {
 }
 
 .sale__btn {
-  position: absolute;
   height: 45px;
   width: 110px;
   background-color: red;
@@ -96,6 +103,7 @@ h1 {
   outline: none;
   border: none;
   text-align: center;
+  position: absolute;
   top: 40%;
   left: 30%;
   opacity: 0;
@@ -145,13 +153,14 @@ h1 {
 }
 
 .visitanos__btn {
-  height: 40px;
+  height: 30px;
   width: 110px;
   background: transparent;
   border: 2px solid white;
   color: white;
   outline: none;
   border-radius: 4px;
+  height: 40px;
 }
 
 .visitanos__btn:hover {

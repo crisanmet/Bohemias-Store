@@ -1,5 +1,11 @@
 .carousel-item {
   height: 80vh;
+  @media (min-width: $breakpoint-tablet) {
+    height: 40vh;
+  }
+  @media (min-width: $breakpoint-smartphone) {
+    height: 30vh;
+  }
 }
 .sale {
   &__precio {
@@ -9,15 +15,8 @@
     padding-left: 5px;
   }
   &__btn {
+    @include boton-estilo-general;
     position: absolute;
-    height: 45px;
-    width: 110px;
-    background-color: red;
-    color: white;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    text-align: center;
     top: 40%;
     left: 30%;
     opacity: 0;
@@ -61,13 +60,8 @@
     color: black;
   }
   &__btn {
+    @include boton-estilo-footer;
     height: 40px;
-    width: 110px;
-    background: transparent;
-    border: 2px solid white;
-    color: white;
-    outline: none;
-    border-radius: 4px;
     &:hover {
       color: black;
       background-color: white;
@@ -81,14 +75,7 @@
     font-weight: 900;
   }
   &__btn {
-    height: 45px;
-    width: 110px;
-    background-color: red;
-    color: white;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    text-align: center;
+    @include boton-estilo-general;
     &:hover {
       background-color: $background-negro;
       transition: 0.5s;
