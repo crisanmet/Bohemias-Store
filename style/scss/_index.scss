@@ -1,9 +1,11 @@
 .carousel-item {
-  height: 80vh;
-  @media (min-width: $breakpoint-tablet) {
+  @media only screen and (max-width: $breakpoint-desktop) {
+    height: 80vh;
+  }
+  @media only screen and(max-width: $breakpoint-tablet) {
     height: 40vh;
   }
-  @media (min-width: $breakpoint-smartphone) {
+  @media only screen and(max-width: $breakpoint-smartphone) {
     height: 30vh;
   }
 }

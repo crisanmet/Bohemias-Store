@@ -71,17 +71,19 @@ li .nav-link:hover {
   transition: 1s;
 }
 
-.carousel-item {
-  height: 80vh;
+@media only screen and (max-width: 1200px) {
+  .carousel-item {
+    height: 80vh;
+  }
 }
 
-@media (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .carousel-item {
     height: 40vh;
   }
 }
 
-@media (min-width: 375px) {
+@media only screen and (max-width: 375px) {
   .carousel-item {
     height: 30vh;
   }
