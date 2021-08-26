@@ -82,3 +82,34 @@
     }
   }
 }
+
+.iconos__container {
+  background: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  &__ind {
+    background: #fff;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex: 1 1 25rem;
+    margin: 1rem;
+  }
+  &__img {
+    height: 5rem;
+    margin-right: 2rem;
+  }
+  &__titulo {
+    color: red;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  &__span {
+    color: #555;
+    font-size: 1.5rem;
+  }
+}
