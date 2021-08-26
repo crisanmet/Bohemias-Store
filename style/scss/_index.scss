@@ -113,3 +113,54 @@
     font-size: 1.5rem;
   }
 }
+
+.criticas {
+  span {
+    color: red;
+  }
+  &__contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    &__ind {
+      flex: 1 1 1rem;
+      box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+      border-radius: 0.5rem;
+      padding: 3rem 2rem;
+      position: relative;
+    }
+    &__icono {
+      position: absolute;
+      bottom: 3rem;
+      right: 3rem;
+      font-size: 6rem;
+      color: #eee;
+    }
+    &__foto {
+      display: flex;
+      align-items: center;
+      padding-top: 2rem;
+      img {
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 1rem;
+      }
+      h3 {
+        font-size: 1.5rem;
+        color: #333;
+      }
+    }
+    &__estrellas {
+      color: red;
+      font-size: 2rem;
+      p {
+        color: #999;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        padding-top: 2rem;
+      }
+    }
+  }
+}

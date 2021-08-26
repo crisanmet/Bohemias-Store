@@ -5,12 +5,17 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-body {
+  outline: none;
+  border: none;
+  transition: 0.2s linear;
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
 .navbar {
   z-index: 1000;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
