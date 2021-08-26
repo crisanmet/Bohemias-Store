@@ -9,6 +9,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.navbar {
+  z-index: 1000;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
 .navbar-brand {
   color: black;
   font-family: "Lobster", cursive;
@@ -191,6 +197,50 @@ li .nav-link:hover {
   transition: 0.5s;
 }
 
+.iconos__container {
+  background: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.iconos__container__ind {
+  background: #fff;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25rem;
+          flex: 1 1 25rem;
+  margin: 1rem;
+}
+
+.iconos__container__img {
+  height: 5rem;
+  margin-right: 2rem;
+}
+
+.iconos__container__titulo {
+  color: red;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.iconos__container__span {
+  color: #555;
+  font-size: 1.5rem;
+}
+
 /*FAQS*/
 .nosotros {
   margin-bottom: 60px;
@@ -242,7 +292,7 @@ li .nav-link:hover {
 
 .hero__jeans__titulo {
   position: absolute;
-  left: 35%;
+  left: 38%;
   font-size: 4rem;
   font-weight: 700;
   color: black;
@@ -250,10 +300,33 @@ li .nav-link:hover {
 
 .hero__jeans__subtitulo {
   position: absolute;
-  left: 30%;
+  left: 32%;
   font-size: 4rem;
   font-weight: 700;
   color: seagreen;
+}
+
+.container__video {
+  position: relative;
+}
+
+.container__video video {
+  border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container__video__titulo {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 2rem;
+  background: #fff;
+  width: 100%;
+  padding: 1rem 2rem;
+  text-align: center;
+  mix-blend-mode: screen;
 }
 
 .productos select {
@@ -294,6 +367,12 @@ li .nav-link:hover {
 
 .hero .container {
   height: 80vh;
+}
+
+.remeras {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
 }
 
 .remeras h2 {
