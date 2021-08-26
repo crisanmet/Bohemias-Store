@@ -6,16 +6,35 @@
   background-position: 50% 50%;
   &__titulo {
     position: absolute;
-    left: 35%;
+    left: 38%;
     font-size: 4rem;
     font-weight: 700;
     color: black;
   }
   &__subtitulo {
     position: absolute;
-    left: 30%;
+    left: 32%;
     font-size: 4rem;
     font-weight: 700;
     color: seagreen;
+  }
+}
+
+.container__video {
+  position: relative;
+  video {
+    border-radius: 1rem;
+    object-fit: cover;
+  }
+  &__titulo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background: #fff;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
   }
 }
