@@ -4,6 +4,12 @@
   height: 100vh;
   width: 100%;
   background-position: 50% 50%;
+  @media only screen and(max-width: $breakpoint-smartphone) {
+    display: none;
+  }
+  @media only screen and(max-width: $breakpoint-tablet) {
+    display: none;
+  }
   &__titulo {
     position: absolute;
     left: 38%;
@@ -36,5 +42,14 @@
     padding: 1rem 2rem;
     text-align: center;
     mix-blend-mode: screen;
+  }
+  @media only screen and(max-width: $breakpoint-smartphone) {
+    display: none;
+  }
+  @media only screen and(max-width: $breakpoint-tablet) {
+    display: none;
+  }
+  @media only screen and(max-width: $breakpoint-desktop) {
+    display: none;
   }
 }

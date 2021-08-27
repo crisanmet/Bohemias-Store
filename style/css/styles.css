@@ -365,6 +365,18 @@ li .nav-link:hover {
   background-position: 50% 50%;
 }
 
+@media only screen and (max-width: 375px) {
+  .hero__jeans {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero__jeans {
+    display: none;
+  }
+}
+
 .hero__jeans__titulo {
   position: absolute;
   left: 38%;
@@ -402,6 +414,24 @@ li .nav-link:hover {
   padding: 1rem 2rem;
   text-align: center;
   mix-blend-mode: screen;
+}
+
+@media only screen and (max-width: 375px) {
+  .container__video {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container__video {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container__video {
+    display: none;
+  }
 }
 
 .productos select {
