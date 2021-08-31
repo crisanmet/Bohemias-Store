@@ -36,11 +36,25 @@ li .nav-link {
   margin-left: 10px;
   color: black;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 li .nav-link:hover {
-  color: red;
+  color: black;
+}
+
+.nav-item a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1.8px;
+  background-color: red;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+.nav-item a:hover::after {
+  width: 100%;
 }
 
 .footer {
