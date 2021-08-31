@@ -316,6 +316,93 @@ li .nav-link:hover {
   padding-top: 2rem;
 }
 
+.descuentos__contenedor {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.descuentos__contenedor__tarjeta {
+  margin: 20px;
+}
+
+.descuentos__contenedor figure {
+  width: 300px;
+  height: 350px;
+  margin: 0;
+  position: relative;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: perspective(600px) rotateY(0deg);
+          transform: perspective(600px) rotateY(0deg);
+}
+
+.descuentos__contenedor figure .frontal {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  display: block;
+}
+
+.descuentos__contenedor figure .trasera {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  color: white;
+  -webkit-transform: perspective(600px) rotateY(180deg);
+          transform: perspective(600px) rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.descuentos__contenedor figure .trasera h3 {
+  color: black;
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-family: roboto;
+}
+
+.descuentos__contenedor figure .trasera hr {
+  height: 2px;
+  background: white;
+  border: none;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.descuentos__contenedor__tarjeta:hover figure {
+  -webkit-transform: perspective(600px) rotateY(180deg);
+          transform: perspective(600px) rotateY(180deg);
+  -webkit-box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+.descuentos__contenedor__tarjeta:hover figure img {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
 /*FAQS*/
 .nosotros {
   margin-bottom: 60px;
