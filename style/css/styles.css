@@ -27,11 +27,6 @@ html {
   font-family: "Lobster", cursive;
 }
 
-.navbar-brand a {
-  font-size: 2rem;
-  font-family: "Montserrat", sans-serif;
-}
-
 .navbar-brand:hover {
   color: red;
 }
@@ -380,7 +375,7 @@ li .nav-link:hover {
   font-weight: normal;
   margin-bottom: 20px;
   font-size: 2rem;
-  font-family: roboto;
+  font-family: "Montserrat", sans-serif;
 }
 
 .descuentos__contenedor figure .trasera hr {
