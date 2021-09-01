@@ -366,6 +366,8 @@ li .nav-link:hover {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   display: block;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .descuentos__contenedor figure .trasera {
