@@ -379,7 +379,7 @@ li .nav-link:hover {
   position: absolute;
   top: 0;
   padding: 20px;
-  color: white;
+  color: black;
   -webkit-transform: perspective(600px) rotateY(180deg);
           transform: perspective(600px) rotateY(180deg);
   -webkit-backface-visibility: hidden;
