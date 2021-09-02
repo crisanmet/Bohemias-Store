@@ -1,3 +1,33 @@
+@-webkit-keyframes SubeYBaja {
+  0% {
+    -webkit-transform: translate(0) translateZ(0);
+            transform: translate(0) translateZ(0);
+  }
+  50% {
+    -webkit-transform: translateY(10px) translateZ(0);
+            transform: translateY(10px) translateZ(0);
+  }
+  to {
+    -webkit-transform: translate(0) translateZ(0);
+            transform: translate(0) translateZ(0);
+  }
+}
+
+@keyframes SubeYBaja {
+  0% {
+    -webkit-transform: translate(0) translateZ(0);
+            transform: translate(0) translateZ(0);
+  }
+  50% {
+    -webkit-transform: translateY(10px) translateZ(0);
+            transform: translateY(10px) translateZ(0);
+  }
+  to {
+    -webkit-transform: translate(0) translateZ(0);
+            transform: translate(0) translateZ(0);
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -628,7 +658,35 @@ li .nav-link:hover {
           transform: translateY(-7px);
 }
 
+@keyframes SubeYBaja {
+  0% {
+    -webkit-transform: translate(0) translateZ(0);
+            transform: translate(0) translateZ(0);
+  }
+  50% {
+    -webkit-transform: translateY(10px) translateZ(0);
+            transform: translateY(10px) translateZ(0);
+  }
+  to {
+    -webkit-transform: translate(0) translateZ(0);
+            transform: translate(0) translateZ(0);
+  }
+}
+
 .nosotras__titulo {
   font-family: "Lobster";
   color: red;
+}
+
+.nosotras img {
+  -webkit-animation-name: SubeYBaja;
+          animation-name: SubeYBaja;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }

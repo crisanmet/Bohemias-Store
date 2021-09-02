@@ -2,3 +2,11 @@
   font-family: "Lobster";
   color: red;
 }
+
+.nosotras img {
+  animation-name: SubeYBaja;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
