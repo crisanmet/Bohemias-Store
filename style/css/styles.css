@@ -628,23 +628,7 @@ li .nav-link:hover {
           transform: translateY(-7px);
 }
 
-.nosotras__uno {
-  background: url(../../img/Nosotras/nosotras1.png) no-repeat;
-  background-size: contain;
-  height: 90vh;
-  width: 100%;
-}
-
-.nosotras__dos {
-  background: url(../../img/Nosotras/nosotras2.png) no-repeat;
-  background-size: contain;
-  height: 90vh;
-  width: 100%;
-}
-
-.nosotras__tres {
-  background: url(../../img/Nosotras/nosotras3.png) no-repeat;
-  background-size: contain;
-  height: 90vh;
-  width: 100%;
+.nosotras__titulo {
+  font-family: "Lobster";
+  color: red;
 }
