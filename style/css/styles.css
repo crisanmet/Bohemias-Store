@@ -201,7 +201,7 @@ li .nav-link:hover {
 
 .visitanos__subtitulo {
   font-size: 22px;
-  color: black;
+  color: rgba(255, 0, 0, 0.986);
 }
 
 .visitanos__btn {
