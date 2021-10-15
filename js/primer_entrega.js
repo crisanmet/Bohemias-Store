@@ -37,6 +37,12 @@ class Productos {
       );
     }
   }
+  agregarStock(num) {
+    this.stock = this.stock + num;
+    return console.log(
+      `Se han agregado ${num} unidades al stock de ${this.nombre}. \nStock total ${this.stock}`
+    );
+  }
 }
 
 const remera1 = new Productos({
@@ -63,6 +69,8 @@ const remera4 = new Productos({
 remera1.vender(4);
 remera4.vender(1);
 remera4.mostrarProductos();
+remera4.agregarStock(1);
+remera4.vender(1);
 
 // const misProductos = [
 //   {
